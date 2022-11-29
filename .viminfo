@@ -15,7 +15,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1669478569,,"wq"
+|2,0,1669698299,,"wq"
+:WQ!
+|2,0,1669698262,,"WQ!"
 :wq!
 |2,0,1669476940,,"wq!"
 :q!
@@ -86,32 +88,42 @@ $
 |3,1,36,0,1,0,1669329364,"'"
 
 # File marks:
-'0  1  0  ~/.gitconfig
-|4,48,1,0,1669478569,"~/.gitconfig"
+'0  7  0  ~/test.txt
+|4,48,7,0,1669698299,"~/test.txt"
 '1  1  0  ~/.gitconfig
-|4,49,1,0,1669478335,"~/.gitconfig"
+|4,49,1,0,1669478569,"~/.gitconfig"
 '2  1  0  ~/.gitconfig
-|4,50,1,0,1669478059,"~/.gitconfig"
+|4,50,1,0,1669478335,"~/.gitconfig"
 '3  1  0  ~/.gitconfig
 |4,51,1,0,1669478059,"~/.gitconfig"
-'4  4  18  ~/test.txt
-|4,52,4,18,1669476940,"~/test.txt"
-'5  7  39  ~/deploy.sh
-|4,53,7,39,1669335138,"~/deploy.sh"
-'6  1  0  ~/deploygroup1/deploy.sh
-|4,54,1,0,1669334279,"~/deploygroup1/deploy.sh"
+'4  1  0  ~/.gitconfig
+|4,52,1,0,1669478059,"~/.gitconfig"
+'5  4  18  ~/test.txt
+|4,53,4,18,1669476940,"~/test.txt"
+'6  4  18  ~/test.txt
+|4,54,4,18,1669476940,"~/test.txt"
 '7  7  39  ~/deploy.sh
-|4,55,7,39,1669334141,"~/deploy.sh"
-'8  7  39  ~/deploy.sh
-|4,56,7,39,1669334052,"~/deploy.sh"
+|4,55,7,39,1669335138,"~/deploy.sh"
+'8  1  0  ~/deploygroup1/deploy.sh
+|4,56,1,0,1669334279,"~/deploygroup1/deploy.sh"
 '9  7  39  ~/deploy.sh
-|4,57,7,39,1669334052,"~/deploy.sh"
+|4,57,7,39,1669334141,"~/deploy.sh"
 
 # Jumplist (newest first):
+-'  7  0  ~/test.txt
+|4,39,7,0,1669698299,"~/test.txt"
+-'  4  18  ~/test.txt
+|4,39,4,18,1669698141,"~/test.txt"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669478569,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1669478569,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1669478335,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669478335,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669478059,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1669478059,"~/.gitconfig"
 -'  4  18  ~/test.txt
@@ -146,6 +158,40 @@ $
 |4,39,3,42,1669476812,"~/test.txt"
 -'  3  42  ~/test.txt
 |4,39,3,42,1669476812,"~/test.txt"
+-'  3  42  ~/test.txt
+|4,39,3,42,1669476812,"~/test.txt"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
+-'  7  39  ~/deploy.sh
+|4,39,7,39,1669335138,"~/deploy.sh"
 -'  7  39  ~/deploy.sh
 |4,39,7,39,1669335138,"~/deploy.sh"
 -'  7  39  ~/deploy.sh
@@ -242,87 +288,45 @@ $
 |4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
 -'  1  0  ~/deploygroup1/deploy.sh
 |4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334141,"~/deploy.sh"
--'  7  39  ~/deploy.sh
-|4,39,7,39,1669334052,"~/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
+-'  1  0  ~/deploygroup1/deploy.sh
+|4,39,1,0,1669334279,"~/deploygroup1/deploy.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/test.txt
+	*	1669698295	0
+	"	7	0
+	^	7	0
+	.	7	0
+	+	3	42
+	+	4	18
+	+	5	0
+	+	7	0
 
 > ~/.gitconfig
 	*	1669478566	0
 	"	1	0
 	^	1	0
-
-> ~/test.txt
-	*	1669476935	0
-	"	4	18
-	^	4	19
-	.	4	18
-	+	3	42
-	+	4	18
 
 > ~/deploy.sh
 	*	1669334326	0
