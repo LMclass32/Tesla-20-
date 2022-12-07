@@ -1,2 +1,2 @@
 # Tesla-20-
-this is a repository for Tesla project
+this is a repository for tesla project
